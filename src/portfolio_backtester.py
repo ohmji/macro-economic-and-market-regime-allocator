@@ -139,8 +139,8 @@ if __name__ == "__main__":
     os.makedirs(report_dir, exist_ok=True)
 
     # Run backtest and save summary for buy-and-hold (always _econ)
-    result = run_backtest_and_save_summary(returns_df, weights_df, "Buy-and-Hold SPY", report_dir, version_suffix="buy_and_hold_spy")
-    print("\n=== Buy-and-Hold SPY  Summary ===")
+    result = run_backtest_and_save_summary(returns_df, weights_df, "Buy-and-Hold SPY", report_dir, version_suffix="")
+    print("\n=== Buy-and-Hold SPY Summary ===")
     summary_df = pd.DataFrame([result.summary()])
     print(summary_df.round(4))
     print(f"Saved summary to: {os.path.join(report_dir, 'buy-and-hold_spy_summary.csv')}")
@@ -161,7 +161,7 @@ if __name__ == "__main__":
     # Compare Equity Curves
     # -------------------------------
     plt.figure(figsize=(12,6))
-    plt.plot(result.equity_curve, label='Buy-and-Hold SPY (econ)')
+    plt.plot(result.equity_curve, label='Buy-and-Hold SPY')
     plt.plot(model_result_econ.equity_curve, label=f'Regime-Based Allocation{version_suffix_econ}')
     plt.plot(model_result_mkt.equity_curve, label=f'Regime-Based Allocation{version_suffix_mkt}')
     plt.title("Equity Curve Comparison")
@@ -173,7 +173,7 @@ if __name__ == "__main__":
 
     # Save equity curve comparison as CSV for all 3 strategies
     comparison_df = pd.DataFrame({
-        'Buy-and-Hold SPY (econ)': result.equity_curve,
+        'Buy-and-Hold SPY': result.equity_curve,
         f'Regime-Based Allocation{version_suffix_econ}': model_result_econ.equity_curve,
         f'Regime-Based Allocation{version_suffix_mkt}': model_result_mkt.equity_curve,
     })
