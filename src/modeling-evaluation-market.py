@@ -116,7 +116,7 @@ def rolling_oos_predictions(df, best_params_dict, feature_cols, target_col, spli
 
 
 def plot_model_results(res_rolling_all):
-    report_dir = './data/report'
+    report_dir = './data/market'
     os.makedirs(report_dir, exist_ok=True)
     for model in ['DT', 'RF', 'XGB']:
         fig = plot_regimes(
@@ -146,7 +146,7 @@ def plot_model_results(res_rolling_all):
     return metrics_result
 
 
-def save_model_evaluation_reports(res_rolling_all, metrics_result, h=1, report_dir='./data/report'):
+def save_model_evaluation_reports(res_rolling_all, metrics_result, h=1, report_dir='./data/report/market'):
     os.makedirs(report_dir, exist_ok=True)
     metrics_result.to_csv(os.path.join(report_dir, f'{h}M_metrics_summary.csv'))
     for model in ['DT', 'RF', 'XGB']:
@@ -219,11 +219,11 @@ if __name__ == "__main__":
     res_rolling_all = rolling_oos_predictions(df, best_params_dict, feature_cols, target_col, split_date)
     res_rolling_all.set_index('Date').to_csv(f'./data/predictions/{h}M_mkt_preds.csv')
     metrics_result = plot_model_results(res_rolling_all)
-    save_model_evaluation_reports(res_rolling_all, metrics_result, h=h, report_dir='./data/report')
+    save_model_evaluation_reports(res_rolling_all, metrics_result, h=h, report_dir='./data/report/market')
     xgb_params = best_params_dict[('XGB', xgb.XGBClassifier)]
     feat_imp_df = analyze_feature_importance(df, feature_cols, target_col, split_date, xgb_params)
 
-    report_dir = './data/report'
+    report_dir = './data/report/market'
     feat_imp_df.to_csv(os.path.join(report_dir, f'{h}M_feature_importance_market.csv'), index=False)
 
     avg_feat_impo = feat_imp_df

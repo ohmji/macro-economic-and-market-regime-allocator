@@ -1,33 +1,33 @@
-# Macro Regime Allocator
+# Macro Economic and Market Regime Allocator
 
-This project builds an **economic and market regime prediction system** using machine learning, and applies regime-based **dynamic asset allocation** for portfolio backtesting.
+A machine learning framework that forecasts economic and market regimes — such as Expansion and Recession — and applies dynamic asset allocation strategies based on regime signals.
 
 ## 📈 Project Overview
 
-The system is designed to:
+This project integrates macroeconomic indicators and market-based data to:
 
-- Detect **macroeconomic regimes** (e.g. Expansion, Recession)
-- Detect **market regimes** (e.g. Normal, Crash)
-- Predict regime probabilities using models: Decision Tree, Random Forest, and XGBoost
-- Visualize regime transitions and prediction confidence
-- Map predicted regimes to asset allocation strategies
-- Backtest performance of regime-based portfolios
+- Predict long-term **economic regimes** (e.g., Expansion, Recession)
+- Detect short-term **market stress** (e.g., Normal)
+- Map regime forecasts into portfolio weights
+- Backtest performance using dynamic regime-based allocation
 
 ---
 
-## 🧠 Models
+## 🧠 Regime Prediction Models
 
-There are two key predictive components:
+The framework includes two main models:
 
-### 1. Economic Regime Model (`econ`)
-- Predicts long-term macroeconomic states (Expansion, Recession)
-- Trained on features like unemployment, inflation, PMI, and retail sales
-- Output file: `1M_econ_preds.csv`
+### 🟢 Economic Regime Model (`econ`)
+- Objective: Predict long-term macroeconomic conditions — *Expansion* or *Recession*
+- Data: Based on macroeconomic indicators from the FRED-MD dataset
+- Algorithm: XGBoost with rolling-window training
+- Output: `1M_econ_preds.csv` — Monthly recession probabilities from 3 models (DT, RF, XGB)
 
-### 2. Market Regime Model (`market`)
-- Captures short-term market stress (Normal, Crash)
-- Trained on volatility, return metrics, and lagged macro indicators
-- Output file: `1M_mkt_preds.csv`
+### 🔴 Market Regime Model (`market`)
+- Objective: Detect short-term market stress — *Normal* or *Crash*
+- Data: Market-based indicators and lagged macroeconomic features
+- Algorithm: XGBoost with rolling-window training
+- Output: `1M_mkt_preds.csv` — Monthly crash probabilities from 3 models (DT, RF, XGB)
 
 ---
 

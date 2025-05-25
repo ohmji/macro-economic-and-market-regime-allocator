@@ -141,7 +141,7 @@ if __name__ == "__main__":
 
 
     # Create report directory
-    report_dir = './report'
+    report_dir = './data/report/economic'
     os.makedirs(report_dir, exist_ok=True)
 
     # Save evaluation metrics CSV
@@ -166,7 +166,14 @@ if __name__ == "__main__":
     avg_feat_impo = pd.DataFrame(feat_imp_df[feature_cols].mean()).reset_index()
     avg_feat_impo.columns = ['Feature', 'Importance']
     avg_feat_impo.sort_values('Importance', ascending=False, inplace=True)
-    avg_feat_impo['Group'] = 'Unknown'  # Optional: map to actual groups if available
+
+    # Clean feature names and map to group
+    remove_texts = ['1M Lag', '3M Lag', '6M Lag', '9M Lag', '12M Lag']
+    avg_feat_impo['CleanFeature'] = avg_feat_impo['Feature'].str.replace('|'.join(remove_texts), '', regex=True).str.strip()
+    feat_spec_df = pd.read_csv('./data/raw_data/fredmd_feat_spec.csv', index_col='ID')[['Feature', 'Group']]
+    avg_feat_impo = avg_feat_impo.merge(feat_spec_df, left_on='CleanFeature', right_on='Feature', how='left').dropna()
+    avg_feat_impo = avg_feat_impo[['Feature_x', 'Group', 'Importance']]
+    avg_feat_impo.columns = ['Feature', 'Group', 'Importance']
 
     fig_feat = plot_feature_importance(feat_impo_df=avg_feat_impo,
                                        group_impo_df=avg_feat_impo.groupby('Group', as_index=False).sum(),
