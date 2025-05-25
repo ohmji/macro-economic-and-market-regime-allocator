@@ -51,7 +51,7 @@ def plot_feature_importance(feat_impo_df: pd.DataFrame,
     selected_importance = 100 * feat_impo_df['Importance'][start_feat_idx - 1:end_feature]
     selected_group = feat_impo_df['Group'][start_feat_idx - 1:end_feature]
     for idx, group in enumerate(selected_group):
-        color = group_colors[group]
+        color = group_colors.get(group, '#bbbbbb')
         fig.add_trace(go.Bar(x=[selected_features.iloc[idx]], y=[selected_importance.iloc[idx]], showlegend=False,
                              marker_color=color, name=group), row=1, col=1)
     
@@ -62,7 +62,7 @@ def plot_feature_importance(feat_impo_df: pd.DataFrame,
     # Group importance pie chart
     fig.add_trace(go.Pie(labels=group_impo_df['Group'], 
                          values=group_impo_df['Importance'],
-                         marker_colors=[group_colors[group] for group in group_impo_df['Group']],
+                         marker_colors=[group_colors.get(group, '#bbbbbb') for group in group_impo_df['Group']],
                          hole=0.5, textinfo='percent+label',
                          insidetextfont={'size': 14}, showlegend=False, 
                          ), row=1, col=2)

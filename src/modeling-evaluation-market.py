@@ -7,6 +7,7 @@ import os
 # Visualization
 import plotly.express as px
 from src.data_understanding import plot_regimes
+from src.model_evaluation import plot_feature_importance
 
 # Machine Learning
 from sklearn.model_selection import TimeSeriesSplit
@@ -205,17 +206,7 @@ def analyze_feature_importance(df, feature_cols, target_col, split_date, xgb_par
     avg_group_impo = avg_feat_impo.groupby('Group')['Importance'].sum().reset_index()
     avg_group_impo.sort_values(by='Importance', ascending=False, inplace=True)
     avg_group_impo.set_index('Group')
-    # Commenting out interactive widgets for feature importance visualization
-    # num_features_slider = widgets.IntSlider(value=50, min=50, max=100, step=10, description='<b> Max. Bars</b>')
-    # start_feature_slider = widgets.IntSlider(value=1, min=1, max=200, step=20, description='<b> Start Feat. </b>')
-    # interact(plot_feature_importance,
-    #          feat_impo_df=widgets.fixed(avg_feat_impo),
-    #          group_impo_df=widgets.fixed(avg_group_impo),
-    #          plot_title=widgets.fixed('Average Feature and Group Importance for Crash Prediction Model'),
-    #          bar_plot_title=widgets.fixed('Average Feature Importance'),
-    #          pie_plot_title=widgets.fixed('Average Group Importance'),
-    #          start_feat_idx=start_feature_slider,
-    #          max_feat_no=num_features_slider)
+    return avg_feat_impo
 
 
 if __name__ == "__main__":
@@ -230,4 +221,18 @@ if __name__ == "__main__":
     metrics_result = plot_model_results(res_rolling_all)
     save_model_evaluation_reports(res_rolling_all, metrics_result, h=h, report_dir='./data/report')
     xgb_params = best_params_dict[('XGB', xgb.XGBClassifier)]
-    analyze_feature_importance(df, feature_cols, target_col, split_date, xgb_params)
+    feat_imp_df = analyze_feature_importance(df, feature_cols, target_col, split_date, xgb_params)
+
+    report_dir = './data/report'
+    feat_imp_df.to_csv(os.path.join(report_dir, f'{h}M_feature_importance_market.csv'), index=False)
+
+    avg_feat_impo = feat_imp_df
+
+    fig_feat = plot_feature_importance(feat_impo_df=avg_feat_impo,
+                                       group_impo_df=avg_feat_impo.groupby('Group', as_index=False).sum(),
+                                       plot_title='Average Feature Importance (Market)',
+                                       bar_plot_title='Top Features',
+                                       pie_plot_title='Importance by Group',
+                                       start_feat_idx=1,
+                                       max_feat_no=30)
+    fig_feat.write_image(os.path.join(report_dir, f'{h}M_feature_importance_market.png'))

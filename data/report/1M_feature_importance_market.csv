@@ -1,0 +1,691 @@
+Feature,Group,Importance
+T5YFFM 12M Lag,Interest and Exchange Rates,0.04935538
+TB6SMFFM 9M Lag,Interest and Exchange Rates,0.043108907
+USWTRADE,Labor Market,0.035996582
+T1YFFM 9M Lag,Interest and Exchange Rates,0.032897573
+USWTRADE 3M Lag,Labor Market,0.026070049
+S&P PE ratio 12M Lag,Stock Market,0.020531174
+AAAFFM,Interest and Exchange Rates,0.0159932
+M2SL 9M Lag,Money and Credit,0.014823164
+BUSINVx 3M Lag,"Consumption, Orders and Inventories",0.013808018
+COMPAPFFx 1M Lag,Interest and Exchange Rates,0.013736953
+MANEMP,Labor Market,0.012638737
+COMPAPFFx 9M Lag,Interest and Exchange Rates,0.012202674
+CPIAUCSL 6M Lag,Prices,0.011892576
+NONREVSL 6M Lag,Money and Credit,0.011838972
+BAAFFM,Interest and Exchange Rates,0.011424018
+BUSINVx 1M Lag,"Consumption, Orders and Inventories",0.011415431
+COMPAPFFx 12M Lag,Interest and Exchange Rates,0.010211926
+WPSID61 3M Lag,Prices,0.010055719
+TB6SMFFM 12M Lag,Interest and Exchange Rates,0.009739977
+T10YFFM 12M Lag,Interest and Exchange Rates,0.009427895
+NONREVSL 9M Lag,Money and Credit,0.009060005
+USWTRADE 1M Lag,Labor Market,0.008500906
+M2REAL,Money and Credit,0.0084229335
+HOUST 12M Lag,Housing,0.008197909
+CES1021000001,Labor Market,0.008180185
+REALLN 12M Lag,Money and Credit,0.007814339
+COMPAPFFx,Interest and Exchange Rates,0.007806754
+CES0600000008 6M Lag,Labor Market,0.007782105
+HOUST,Housing,0.0076422845
+T1YFFM 12M Lag,Interest and Exchange Rates,0.007345243
+WPSID61 12M Lag,Prices,0.0066993884
+PAYEMS,Labor Market,0.00664757
+COMPAPFFx 6M Lag,Interest and Exchange Rates,0.00643699
+T1YFFM 1M Lag,Interest and Exchange Rates,0.006426306
+AAAFFM 12M Lag,Interest and Exchange Rates,0.0063364888
+T5YFFM 9M Lag,Interest and Exchange Rates,0.0062188176
+CES1021000001 1M Lag,Labor Market,0.0061914544
+NONREVSL 12M Lag,Money and Credit,0.006158623
+CES0600000008 3M Lag,Labor Market,0.005826267
+T10YFFM,Interest and Exchange Rates,0.005730906
+FEDFUNDS 3M Lag,Interest and Exchange Rates,0.0053616296
+CUSR0000SA0L2 6M Lag,Prices,0.005309328
+AMDMUOx 9M Lag,"Consumption, Orders and Inventories",0.005182821
+HOUSTS 1M Lag,Housing,0.0050226147
+COMPAPFFx 3M Lag,Interest and Exchange Rates,0.0048779007
+CES1021000001 12M Lag,Labor Market,0.004865211
+WPSID61 6M Lag,Prices,0.004838694
+CPIULFSL 3M Lag,Prices,0.004809403
+T1YFFM,Interest and Exchange Rates,0.00469577
+HOUSTS 12M Lag,Housing,0.0045133294
+TB6SMFFM 6M Lag,Interest and Exchange Rates,0.0045097414
+DTCTHFNM 9M Lag,Money and Credit,0.0044362484
+USFIRE 12M Lag,Labor Market,0.004324113
+BUSINVx 6M Lag,"Consumption, Orders and Inventories",0.004233
+CES1021000001 9M Lag,Labor Market,0.004177392
+HOUSTW,Housing,0.004103256
+HOUSTS 9M Lag,Housing,0.0040197214
+SRVPRD,Labor Market,0.0038850533
+DDURRG3M086SBEA 6M Lag,Prices,0.0038772887
+TB6SMFFM,Interest and Exchange Rates,0.003831982
+RETAILx 6M Lag,"Consumption, Orders and Inventories",0.0037845564
+M2SL,Money and Credit,0.003761386
+USGOOD 3M Lag,Labor Market,0.0037504723
+BAAFFM 12M Lag,Interest and Exchange Rates,0.0037443505
+DSERRG3M086SBEA 12M Lag,Prices,0.003679923
+REALLN,Money and Credit,0.0036680459
+BAAFFM 9M Lag,Interest and Exchange Rates,0.0036441952
+PAYEMS 1M Lag,Labor Market,0.0036386035
+FEDFUNDS 1M Lag,Interest and Exchange Rates,0.0036142226
+CUSR0000SAS 12M Lag,Prices,0.003570284
+S&P 500,Stock Market,0.0035539344
+CONSPI 12M Lag,Money and Credit,0.003465541
+CUSR0000SAD 1M Lag,Prices,0.0034618743
+USFIRE 9M Lag,Labor Market,0.003457254
+S&P div yield,Stock Market,0.0034377605
+CUSR0000SAD,Prices,0.0034072236
+HOUSTNE,Housing,0.0033988894
+USGOOD,Labor Market,0.0032799477
+TB3SMFFM 6M Lag,Interest and Exchange Rates,0.0032658253
+RPI 12M Lag,Output and Income,0.0031015777
+REALLN 1M Lag,Money and Credit,0.0030000152
+DNDGRG3M086SBEA 6M Lag,Prices,0.002951818
+USWTRADE 6M Lag,Labor Market,0.0029118743
+DSERRG3M086SBEA 9M Lag,Prices,0.0028665548
+EXUSUKx 6M Lag,Interest and Exchange Rates,0.002782321
+PCEPI,Prices,0.0027357081
+USGOVT 9M Lag,Labor Market,0.0026868656
+USGOOD 1M Lag,Labor Market,0.0026555802
+BUSLOANS 1M Lag,Money and Credit,0.0025994033
+HOUSTNE 1M Lag,Housing,0.0025563291
+PAYEMS 6M Lag,Labor Market,0.0025274323
+DTCTHFNM 3M Lag,Money and Credit,0.002492351
+AWHMAN 6M Lag,Labor Market,0.0024564883
+REALLN 6M Lag,Money and Credit,0.0023670557
+UEMP15T26,Labor Market,0.0023606657
+HOUSTMW,Housing,0.0022603997
+EXSZUSx,Interest and Exchange Rates,0.0022592267
+USGOVT 6M Lag,Labor Market,0.0022410867
+CUSR0000SAS,Prices,0.0022276905
+CUSR0000SA0L2 1M Lag,Prices,0.0022119686
+DTCOLNVHFNM 12M Lag,Money and Credit,0.0022057162
+USGOVT 12M Lag,Labor Market,0.0021804627
+PAYEMS 9M Lag,Labor Market,0.0021678952
+SRVPRD 9M Lag,Labor Market,0.0021655543
+T5YFFM,Interest and Exchange Rates,0.0021471586
+DMANEMP 12M Lag,Labor Market,0.0020711427
+HOUSTMW 1M Lag,Housing,0.0020529416
+AWHMAN 9M Lag,Labor Market,0.0020472228
+AAAFFM 9M Lag,Interest and Exchange Rates,0.0020266485
+M1SL 12M Lag,Money and Credit,0.0020187534
+DTCTHFNM 6M Lag,Money and Credit,0.001993521
+BUSLOANS,Money and Credit,0.0019797804
+CUSR0000SA0L5 6M Lag,Prices,0.001968484
+W875RX1 3M Lag,Output and Income,0.001963324
+BAA,Interest and Exchange Rates,0.0019545753
+HOUST 3M Lag,Housing,0.0019408477
+DTCTHFNM,Money and Credit,0.0019343699
+INVEST 9M Lag,Money and Credit,0.0019316167
+USFIRE 3M Lag,Labor Market,0.0019293776
+TB3SMFFM,Interest and Exchange Rates,0.0019283177
+DMANEMP 3M Lag,Labor Market,0.001918668
+CUSR0000SAD 3M Lag,Prices,0.0019121958
+NDMANEMP,Labor Market,0.0019021078
+AMDMUOx,"Consumption, Orders and Inventories",0.0018797942
+CES0600000007 9M Lag,Labor Market,0.0018712385
+USTRADE 9M Lag,Labor Market,0.0018376714
+BUSINVx 12M Lag,"Consumption, Orders and Inventories",0.0018311475
+DTCOLNVHFNM 1M Lag,Money and Credit,0.0018304583
+CUSR0000SA0L5,Prices,0.0018204344
+CLAIMSx 3M Lag,Labor Market,0.001794517
+DPCERA3M086SBEA,"Consumption, Orders and Inventories",0.0017906005
+T5YFFM 3M Lag,Interest and Exchange Rates,0.0017321567
+CES1021000001 3M Lag,Labor Market,0.0017221465
+TOTRESNS 9M Lag,Money and Credit,0.0017069656
+CPIMEDSL 1M Lag,Prices,0.0016992063
+TOTRESNS 1M Lag,Money and Credit,0.0016819921
+S&P PE ratio,Stock Market,0.001660937
+DDURRG3M086SBEA 3M Lag,Prices,0.0016363511
+NONREVSL 1M Lag,Money and Credit,0.001626089
+HOUSTW 12M Lag,Housing,0.0015631773
+USWTRADE 12M Lag,Labor Market,0.001562538
+CLAIMSx,Labor Market,0.001532837
+CUSR0000SAC 6M Lag,Prices,0.0015306775
+TB6SMFFM 1M Lag,Interest and Exchange Rates,0.0015305732
+USCONS 6M Lag,Labor Market,0.001524284
+CONSPI 6M Lag,Money and Credit,0.0015150124
+UEMP15OV 3M Lag,Labor Market,0.0014674809
+S&P PE ratio 6M Lag,Stock Market,0.0014385812
+INDPRO,Output and Income,0.0014185684
+BOGMBASE 9M Lag,Money and Credit,0.0014122932
+OILPRICEx 3M Lag,Prices,0.0014083494
+USGOVT 3M Lag,Labor Market,0.0013951757
+BOGMBASE,Money and Credit,0.0013557285
+CUSR0000SAC 3M Lag,Prices,0.0013455363
+AMDMUOx 12M Lag,"Consumption, Orders and Inventories",0.001339445
+CES1021000001 6M Lag,Labor Market,0.0013200112
+USCONS 3M Lag,Labor Market,0.0013125024
+PAYEMS 12M Lag,Labor Market,0.0013085126
+USTPU 6M Lag,Labor Market,0.001302035
+REALLN 9M Lag,Money and Credit,0.001284752
+USTPU 12M Lag,Labor Market,0.0012717311
+CUSR0000SA0L5 1M Lag,Prices,0.0012640076
+HOUSTNE 12M Lag,Housing,0.0012457457
+CONSPI 9M Lag,Money and Credit,0.0012453693
+CES0600000008 9M Lag,Labor Market,0.0012448527
+M2REAL 12M Lag,Money and Credit,0.0012435137
+HOUSTS,Housing,0.0012354932
+DNDGRG3M086SBEA 9M Lag,Prices,0.0012303597
+NONREVSL 3M Lag,Money and Credit,0.0012101805
+CUSR0000SA0L5 3M Lag,Prices,0.0012051892
+BUSLOANS 9M Lag,Money and Credit,0.0011998359
+HOUSTW 6M Lag,Housing,0.0011967061
+REALLN 3M Lag,Money and Credit,0.0011841204
+USWTRADE 9M Lag,Labor Market,0.0011577703
+IPFUELS,Output and Income,0.0011521011
+USFIRE 1M Lag,Labor Market,0.001137921
+USGOOD 9M Lag,Labor Market,0.0011330349
+M1SL 6M Lag,Money and Credit,0.0011310242
+IPCONGD,Output and Income,0.0011269699
+USTPU 9M Lag,Labor Market,0.0011264302
+EXUSUKx 12M Lag,Interest and Exchange Rates,0.0011204296
+NDMANEMP 12M Lag,Labor Market,0.0011094158
+FEDFUNDS 6M Lag,Interest and Exchange Rates,0.0010865994
+BOGMBASE 12M Lag,Money and Credit,0.0010829164
+TB3MS 3M Lag,Interest and Exchange Rates,0.001076352
+AAAFFM 1M Lag,Interest and Exchange Rates,0.0010562019
+HOUSTMW 9M Lag,Housing,0.0010555212
+T1YFFM 3M Lag,Interest and Exchange Rates,0.0010234361
+USCONS 1M Lag,Labor Market,0.0010224854
+EXUSUKx,Interest and Exchange Rates,0.0010107721
+PAYEMS 3M Lag,Labor Market,0.001000625
+IPNMAT 3M Lag,Output and Income,0.0010002046
+RPI,Output and Income,0.0010001507
+PPICMM,Prices,0.0009908514
+T10YFFM 9M Lag,Interest and Exchange Rates,0.0009906631
+OILPRICEx 6M Lag,Prices,0.0009857736
+CUSR0000SA0L2 3M Lag,Prices,0.0009808824
+CP3Mx 9M Lag,Interest and Exchange Rates,0.000965608
+TB3SMFFM 3M Lag,Interest and Exchange Rates,0.0009643617
+WPSFD49207 3M Lag,Prices,0.0009640142
+EXCAUSx,Interest and Exchange Rates,0.00095668604
+CES2000000008 9M Lag,Labor Market,0.00095095433
+RETAILx 1M Lag,"Consumption, Orders and Inventories",0.00094629877
+CPIULFSL 6M Lag,Prices,0.0009417174
+CPIAUCSL 3M Lag,Prices,0.00093811523
+AWHMAN,Labor Market,0.0009271645
+S&P PE ratio 1M Lag,Stock Market,0.00089761824
+INVEST 12M Lag,Money and Credit,0.000891323
+SRVPRD 1M Lag,Labor Market,0.00088183937
+IPNMAT,Output and Income,0.0008672017
+CUSR0000SAS 1M Lag,Prices,0.00085836346
+USGOVT,Labor Market,0.000843249
+BUSINVx 9M Lag,"Consumption, Orders and Inventories",0.00083791465
+S&P 500 1M Lag,Stock Market,0.0008375296
+CPIAPPSL 6M Lag,Prices,0.00082694
+NONREVSL,Money and Credit,0.0008252928
+CES0600000008,Labor Market,0.0008194791
+T5YFFM 1M Lag,Interest and Exchange Rates,0.0008006792
+SRVPRD 6M Lag,Labor Market,0.00079836283
+IPNMAT 1M Lag,Output and Income,0.0007978552
+DTCOLNVHFNM 9M Lag,Money and Credit,0.00079298794
+CONSPI 3M Lag,Money and Credit,0.0007914922
+EXSZUSx 9M Lag,Interest and Exchange Rates,0.0007874416
+CUSR0000SAS 3M Lag,Prices,0.00078151113
+IPCONGD 9M Lag,Output and Income,0.000771601
+PCEPI 6M Lag,Prices,0.00075099984
+CLAIMSx 12M Lag,Labor Market,0.0007383283
+CP3Mx,Interest and Exchange Rates,0.000736857
+USGOVT 1M Lag,Labor Market,0.0007326254
+S&P PE ratio 9M Lag,Stock Market,0.0007316897
+DDURRG3M086SBEA 9M Lag,Prices,0.0007246637
+DTCOLNVHFNM,Money and Credit,0.00071665813
+CPIMEDSL 9M Lag,Prices,0.0007161339
+AMDMUOx 6M Lag,"Consumption, Orders and Inventories",0.00071609154
+UEMP5TO14 12M Lag,Labor Market,0.0007103522
+W875RX1,Output and Income,0.00070201204
+M2REAL 6M Lag,Money and Credit,0.0007007333
+T1YFFM 6M Lag,Interest and Exchange Rates,0.0006984971
+CPIULFSL 1M Lag,Prices,0.0006816742
+BAAFFM 1M Lag,Interest and Exchange Rates,0.00067959714
+S&P div yield 12M Lag,Stock Market,0.00067924365
+CPIMEDSL 3M Lag,Prices,0.00067878334
+NDMANEMP 1M Lag,Labor Market,0.00067005696
+TB3SMFFM 9M Lag,Interest and Exchange Rates,0.0006594064
+PPICMM 1M Lag,Prices,0.0006559809
+CES2000000008 6M Lag,Labor Market,0.0006530379
+EXSZUSx 12M Lag,Interest and Exchange Rates,0.0006529912
+INVEST 1M Lag,Money and Credit,0.00065049337
+HOUST 6M Lag,Housing,0.0006257484
+WPSFD49207 9M Lag,Prices,0.0006222186
+CES3000000008 6M Lag,Labor Market,0.00062175473
+AWHMAN 3M Lag,Labor Market,0.0006163444
+CUSR0000SAC 12M Lag,Prices,0.0006100202
+HOUSTW 3M Lag,Housing,0.0006095929
+UEMP15OV,Labor Market,0.0006091136
+HWIURATIO 12M Lag,Labor Market,0.0006061689
+DDURRG3M086SBEA,Prices,0.0006057384
+W875RX1 9M Lag,Output and Income,0.00060468673
+BAAFFM 3M Lag,Interest and Exchange Rates,0.00058226177
+S&P div yield 1M Lag,Stock Market,0.00057552016
+M2SL 12M Lag,Money and Credit,0.0005726558
+BUSLOANS 12M Lag,Money and Credit,0.00056223565
+BUSLOANS 3M Lag,Money and Credit,0.0005574664
+TB3MS,Interest and Exchange Rates,0.0005564682
+USGOOD 12M Lag,Labor Market,0.000550574
+USCONS,Labor Market,0.0005443957
+CP3Mx 3M Lag,Interest and Exchange Rates,0.0005438639
+CES2000000008 1M Lag,Labor Market,0.00054208207
+GS1 12M Lag,Interest and Exchange Rates,0.0005411141
+EXSZUSx 6M Lag,Interest and Exchange Rates,0.0005372527
+IPFPNSS,Output and Income,0.0005310191
+TB6MS,Interest and Exchange Rates,0.0005291249
+CMRMTSPLx,"Consumption, Orders and Inventories",0.00052892935
+DTCTHFNM 1M Lag,Money and Credit,0.00052228733
+M2SL 3M Lag,Money and Credit,0.000520325
+UEMP27OV 9M Lag,Labor Market,0.00051993877
+EXCAUSx 1M Lag,Interest and Exchange Rates,0.0005122854
+AWHMAN 1M Lag,Labor Market,0.00050745084
+HOUSTMW 6M Lag,Housing,0.00049221056
+GS1,Interest and Exchange Rates,0.0004917987
+DDURRG3M086SBEA 1M Lag,Prices,0.00048608487
+CPIULFSL 9M Lag,Prices,0.0004761306
+HWI,Labor Market,0.00047305555
+UEMP27OV 6M Lag,Labor Market,0.00047234734
+IPDCONGD 12M Lag,Output and Income,0.00046949473
+TB3SMFFM 1M Lag,Interest and Exchange Rates,0.00046426558
+CES3000000008 1M Lag,Labor Market,0.00046276575
+IPBUSEQ 12M Lag,Output and Income,0.00046150325
+INDPRO 9M Lag,Output and Income,0.00045195568
+CPIAUCSL 1M Lag,Prices,0.000449731
+UEMP27OV 3M Lag,Labor Market,0.00044972438
+IPBUSEQ 3M Lag,Output and Income,0.00044659065
+HOUSTMW 12M Lag,Housing,0.00044558034
+CUSR0000SAD 12M Lag,Prices,0.00044489087
+CP3Mx 6M Lag,Interest and Exchange Rates,0.0004430598
+WPSID61 9M Lag,Prices,0.00044291216
+DTCOLNVHFNM 3M Lag,Money and Credit,0.0004414985
+T10YFFM 1M Lag,Interest and Exchange Rates,0.00043128364
+DTCTHFNM 12M Lag,Money and Credit,0.00043125576
+IPFPNSS 3M Lag,Output and Income,0.00042393108
+BUSLOANS 6M Lag,Money and Credit,0.00042332066
+NDMANEMP 3M Lag,Labor Market,0.00041762745
+DMANEMP 9M Lag,Labor Market,0.0004159674
+DNDGRG3M086SBEA 3M Lag,Prices,0.00041545447
+GS5,Interest and Exchange Rates,0.00041341514
+AWHMAN 12M Lag,Labor Market,0.0004115953
+CPITRNSL 9M Lag,Prices,0.00040722208
+HWIURATIO 6M Lag,Labor Market,0.00040686835
+IPMAT 6M Lag,Output and Income,0.00040361474
+CES3000000008 9M Lag,Labor Market,0.00040240985
+WPSFD49207,Prices,0.0004008359
+INDPRO 1M Lag,Output and Income,0.00039663134
+EXCAUSx 3M Lag,Interest and Exchange Rates,0.00039454407
+CUSR0000SAC 1M Lag,Prices,0.00039244138
+CUSR0000SAD 9M Lag,Prices,0.00039136616
+CMRMTSPLx 3M Lag,"Consumption, Orders and Inventories",0.00038014783
+MANEMP 12M Lag,Labor Market,0.00037911776
+MANEMP 1M Lag,Labor Market,0.000377127
+IPBUSEQ,Output and Income,0.00037299376
+CPITRNSL,Prices,0.00037124555
+SRVPRD 12M Lag,Labor Market,0.00036474937
+IPCONGD 3M Lag,Output and Income,0.0003624084
+CE16OV,Labor Market,0.00036228303
+HOUST 9M Lag,Housing,0.00036039948
+UEMP27OV,Labor Market,0.00035839897
+IPBUSEQ 9M Lag,Output and Income,0.00035530858
+FEDFUNDS,Interest and Exchange Rates,0.00035276098
+IPFUELS 3M Lag,Output and Income,0.0003523789
+USCONS 12M Lag,Labor Market,0.00034918
+IPNCONGD 12M Lag,Output and Income,0.0003472946
+UEMP15OV 1M Lag,Labor Market,0.00034598509
+M1SL,Money and Credit,0.00034522786
+M1SL 9M Lag,Money and Credit,0.0003410597
+INDPRO 12M Lag,Output and Income,0.0003367276
+IPDMAT,Output and Income,0.00033619377
+PPICMM 9M Lag,Prices,0.00033556085
+CMRMTSPLx 12M Lag,"Consumption, Orders and Inventories",0.00033453075
+IPMAT 12M Lag,Output and Income,0.00033295134
+AMDMNOx 12M Lag,"Consumption, Orders and Inventories",0.00033238876
+USCONS 9M Lag,Labor Market,0.00033046916
+RPI 6M Lag,Output and Income,0.0003278709
+CES2000000008,Labor Market,0.00032678852
+HOUSTNE 9M Lag,Housing,0.00032507372
+PCEPI 3M Lag,Prices,0.00032403966
+UEMP15OV 6M Lag,Labor Market,0.00032375043
+USTRADE,Labor Market,0.00031945086
+T5YFFM 6M Lag,Interest and Exchange Rates,0.00031644152
+PPICMM 3M Lag,Prices,0.00030989558
+AMDMUOx 3M Lag,"Consumption, Orders and Inventories",0.0003098263
+WPSFD49502 9M Lag,Prices,0.00030919665
+CUSR0000SA0L2,Prices,0.00030441
+IPMANSICS 6M Lag,Output and Income,0.00029712246
+RETAILx,"Consumption, Orders and Inventories",0.00029594506
+IPDCONGD,Output and Income,0.00029532038
+IPDCONGD 1M Lag,Output and Income,0.00029186803
+HOUST 1M Lag,Housing,0.00028953823
+IPDMAT 12M Lag,Output and Income,0.0002884396
+M2REAL 9M Lag,Money and Credit,0.0002876958
+CE16OV 6M Lag,Labor Market,0.00028517612
+HOUSTW 1M Lag,Housing,0.0002840334
+DTCOLNVHFNM 6M Lag,Money and Credit,0.00028184455
+NONBORRES,Money and Credit,0.00028090834
+UEMPLT5 3M Lag,Labor Market,0.00027997288
+IPNMAT 6M Lag,Output and Income,0.00027475055
+DPCERA3M086SBEA 9M Lag,"Consumption, Orders and Inventories",0.00026805227
+CES3000000008,Labor Market,0.0002670658
+S&P PE ratio 3M Lag,Stock Market,0.00026503345
+CP3Mx 1M Lag,Interest and Exchange Rates,0.00026477213
+INDPRO 6M Lag,Output and Income,0.00026401482
+WPSFD49207 12M Lag,Prices,0.00026248433
+CONSPI 1M Lag,Money and Credit,0.00026130799
+FEDFUNDS 9M Lag,Interest and Exchange Rates,0.00026028426
+BAA 3M Lag,Interest and Exchange Rates,0.0002572094
+GS1 1M Lag,Interest and Exchange Rates,0.0002543178
+CES0600000008 1M Lag,Labor Market,0.0002541104
+CPITRNSL 1M Lag,Prices,0.00025208242
+M2SL 1M Lag,Money and Credit,0.00024783853
+SRVPRD 3M Lag,Labor Market,0.00024530123
+CPIAUCSL 9M Lag,Prices,0.0002440223
+USTPU 3M Lag,Labor Market,0.0002421985
+GS10 9M Lag,Interest and Exchange Rates,0.00024038517
+M2SL 6M Lag,Money and Credit,0.00023909201
+IPFINAL,Output and Income,0.00023474083
+USFIRE,Labor Market,0.00023385174
+INVEST,Money and Credit,0.00023306906
+TB6SMFFM 3M Lag,Interest and Exchange Rates,0.00023264883
+IPFINAL 3M Lag,Output and Income,0.0002315144
+IPNMAT 12M Lag,Output and Income,0.00023118201
+S&P div yield 3M Lag,Stock Market,0.00022908316
+CES0600000007 6M Lag,Labor Market,0.0002271937
+IPFUELS 1M Lag,Output and Income,0.00022424043
+NDMANEMP 6M Lag,Labor Market,0.00022186506
+CUSR0000SAS 9M Lag,Prices,0.00022088904
+BUSINVx,"Consumption, Orders and Inventories",0.00022014209
+CE16OV 1M Lag,Labor Market,0.00021966652
+IPMANSICS,Output and Income,0.00021916024
+M2REAL 3M Lag,Money and Credit,0.00021678273
+DSERRG3M086SBEA,Prices,0.00021580479
+CPIMEDSL 6M Lag,Prices,0.000214767
+CPIAPPSL 9M Lag,Prices,0.00021195521
+GS5 12M Lag,Interest and Exchange Rates,0.00021150982
+CLAIMSx 1M Lag,Labor Market,0.0002099577
+RPI 1M Lag,Output and Income,0.00020743428
+CLF16OV 9M Lag,Labor Market,0.00020582855
+UEMP27OV 1M Lag,Labor Market,0.00020560154
+UEMP15T26 1M Lag,Labor Market,0.00020297633
+IPFPNSS 9M Lag,Output and Income,0.00020227015
+CPIMEDSL,Prices,0.00020193851
+CPIULFSL 12M Lag,Prices,0.000199582
+S&P 500 9M Lag,Stock Market,0.00019856036
+GS5 3M Lag,Interest and Exchange Rates,0.00019801827
+UEMPLT5,Labor Market,0.00019495278
+EXJPUSx 6M Lag,Interest and Exchange Rates,0.00019494355
+UEMP15T26 6M Lag,Labor Market,0.00019362931
+CE16OV 12M Lag,Labor Market,0.00019358571
+MANEMP 6M Lag,Labor Market,0.00019293236
+M1SL 1M Lag,Money and Credit,0.00019262818
+HOUSTW 9M Lag,Housing,0.00019018477
+CUSR0000SAD 6M Lag,Prices,0.00018447085
+UEMP15OV 9M Lag,Labor Market,0.00018289404
+CES0600000007 3M Lag,Labor Market,0.00018145826
+IPCONGD 1M Lag,Output and Income,0.00018090621
+INVEST 6M Lag,Money and Credit,0.00017948983
+HWIURATIO 3M Lag,Labor Market,0.00017888226
+CES3000000008 12M Lag,Labor Market,0.00017696826
+T10YFFM 6M Lag,Interest and Exchange Rates,0.00017636469
+CPIAUCSL 12M Lag,Prices,0.00017493317
+WPSID62 3M Lag,Prices,0.00017137003
+W875RX1 12M Lag,Output and Income,0.0001698805
+BAA 12M Lag,Interest and Exchange Rates,0.00016869117
+WPSID61,Prices,0.00016592638
+MANEMP 3M Lag,Labor Market,0.00016431318
+EXCAUSx 6M Lag,Interest and Exchange Rates,0.00016175529
+CPIAPPSL 1M Lag,Prices,0.00016098336
+AAAFFM 3M Lag,Interest and Exchange Rates,0.00015573217
+WPSFD49207 6M Lag,Prices,0.00015436414
+CMRMTSPLx 9M Lag,"Consumption, Orders and Inventories",0.0001535234
+IPNCONGD 9M Lag,Output and Income,0.00015321493
+INVEST 3M Lag,Money and Credit,0.0001529494
+USFIRE 6M Lag,Labor Market,0.00015289591
+HOUSTS 6M Lag,Housing,0.00014815772
+DDURRG3M086SBEA 12M Lag,Prices,0.00014386469
+USTRADE 12M Lag,Labor Market,0.00014214896
+WPSFD49502 1M Lag,Prices,0.00014113013
+ISRATIOx,"Consumption, Orders and Inventories",0.00014108632
+DMANEMP,Labor Market,0.00014022019
+EXJPUSx 9M Lag,Interest and Exchange Rates,0.00013837698
+NDMANEMP 9M Lag,Labor Market,0.00013822052
+TB3MS 12M Lag,Interest and Exchange Rates,0.00013752945
+CLF16OV 3M Lag,Labor Market,0.00013717836
+RPI 9M Lag,Output and Income,0.00013657715
+IPDCONGD 3M Lag,Output and Income,0.00013547092
+S&P 500 3M Lag,Stock Market,0.00013424635
+IPFPNSS 1M Lag,Output and Income,0.00013344586
+AAA,Interest and Exchange Rates,0.00013337604
+DNDGRG3M086SBEA,Prices,0.00013266604
+S&P 500 6M Lag,Stock Market,0.0001324007
+M1SL 3M Lag,Money and Credit,0.00013193066
+EXUSUKx 9M Lag,Interest and Exchange Rates,0.00012965243
+IPMAT 1M Lag,Output and Income,0.00012856055
+CPITRNSL 6M Lag,Prices,0.00012826093
+WPSID62 1M Lag,Prices,0.00012761641
+IPMAT,Output and Income,0.00012711604
+IPMAT 3M Lag,Output and Income,0.00012640415
+M2REAL 1M Lag,Money and Credit,0.00012547497
+CUMFNS 12M Lag,Output and Income,0.00012524652
+PCEPI 1M Lag,Prices,0.00012435736
+IPNCONGD 1M Lag,Output and Income,0.00012205919
+DPCERA3M086SBEA 3M Lag,"Consumption, Orders and Inventories",0.000121015495
+IPFINAL 1M Lag,Output and Income,0.000120973
+IPDMAT 3M Lag,Output and Income,0.000119438475
+CUMFNS,Output and Income,0.00011894961
+MANEMP 9M Lag,Labor Market,0.000118943804
+DNDGRG3M086SBEA 12M Lag,Prices,0.000118575634
+UEMP5TO14,Labor Market,0.00011790332
+HOUSTMW 3M Lag,Housing,0.000117818556
+CUSR0000SAC 9M Lag,Prices,0.00011745943
+BOGMBASE 1M Lag,Money and Credit,0.00011602503
+CONSPI,Money and Credit,0.00011523746
+RPI 3M Lag,Output and Income,0.00011490445
+W875RX1 1M Lag,Output and Income,0.00011201562
+HWIURATIO,Labor Market,0.00011150532
+IPFUELS 12M Lag,Output and Income,0.00011044439
+EXSZUSx 1M Lag,Interest and Exchange Rates,0.000108117136
+EXSZUSx 3M Lag,Interest and Exchange Rates,0.0001078191
+OILPRICEx 1M Lag,Prices,0.00010778599
+TB3SMFFM 12M Lag,Interest and Exchange Rates,0.000107492466
+HWI 3M Lag,Labor Market,0.00010524163
+CUSR0000SA0L2 9M Lag,Prices,0.00010518904
+CUMFNS 6M Lag,Output and Income,0.00010327356
+CLAIMSx 6M Lag,Labor Market,0.00010180601
+USTRADE 6M Lag,Labor Market,0.000101475955
+CE16OV 3M Lag,Labor Market,0.00010102081
+BAA 1M Lag,Interest and Exchange Rates,0.00010038216
+IPNCONGD 6M Lag,Output and Income,0.00010005216
+CP3Mx 12M Lag,Interest and Exchange Rates,9.974898e-05
+UEMPMEAN 3M Lag,Labor Market,9.9660814e-05
+BOGMBASE 6M Lag,Money and Credit,9.902583e-05
+CMRMTSPLx 1M Lag,"Consumption, Orders and Inventories",9.77714e-05
+CES2000000008 3M Lag,Labor Market,9.7658914e-05
+UEMP15T26 3M Lag,Labor Market,9.472209e-05
+EXJPUSx 12M Lag,Interest and Exchange Rates,9.465421e-05
+EXCAUSx 9M Lag,Interest and Exchange Rates,9.397174e-05
+TOTRESNS,Money and Credit,9.365561e-05
+AMDMNOx,"Consumption, Orders and Inventories",9.3246155e-05
+GS1 3M Lag,Interest and Exchange Rates,9.279103e-05
+UEMP5TO14 3M Lag,Labor Market,9.2458715e-05
+CPIAUCSL,Prices,9.1637434e-05
+IPBUSEQ 6M Lag,Output and Income,9.158911e-05
+AAAFFM 6M Lag,Interest and Exchange Rates,9.069831e-05
+OILPRICEx 9M Lag,Prices,9.018563e-05
+RETAILx 9M Lag,"Consumption, Orders and Inventories",8.802494e-05
+UEMP15OV 12M Lag,Labor Market,8.726157e-05
+CPIAPPSL 12M Lag,Prices,8.7194945e-05
+CLF16OV 6M Lag,Labor Market,8.667998e-05
+CUSR0000SA0L2 12M Lag,Prices,8.665445e-05
+CPIULFSL,Prices,8.6412714e-05
+CUSR0000SAS 6M Lag,Prices,8.277314e-05
+WPSID61 1M Lag,Prices,8.251364e-05
+TB6MS 9M Lag,Interest and Exchange Rates,8.228128e-05
+CPIAPPSL 3M Lag,Prices,8.1822654e-05
+INDPRO 3M Lag,Output and Income,8.0121485e-05
+CLF16OV,Labor Market,7.992846e-05
+IPMANSICS 3M Lag,Output and Income,7.945122e-05
+TB3MS 6M Lag,Interest and Exchange Rates,7.743678e-05
+GS5 1M Lag,Interest and Exchange Rates,7.684104e-05
+DPCERA3M086SBEA 12M Lag,"Consumption, Orders and Inventories",7.651097e-05
+HWI 9M Lag,Labor Market,7.6450204e-05
+GS10,Interest and Exchange Rates,7.52772e-05
+UEMP15T26 9M Lag,Labor Market,7.478813e-05
+IPDMAT 9M Lag,Output and Income,7.435533e-05
+BAA 9M Lag,Interest and Exchange Rates,7.3193085e-05
+CUSR0000SAC,Prices,7.256613e-05
+WPSID62 6M Lag,Prices,7.242436e-05
+PPICMM 6M Lag,Prices,7.121542e-05
+OILPRICEx 12M Lag,Prices,7.10646e-05
+HWIURATIO 9M Lag,Labor Market,7.071145e-05
+DMANEMP 1M Lag,Labor Market,6.972929e-05
+IPFUELS 9M Lag,Output and Income,6.83821e-05
+USGOOD 6M Lag,Labor Market,6.8009394e-05
+GS1 6M Lag,Interest and Exchange Rates,6.798732e-05
+OILPRICEx,Prices,6.786304e-05
+CUMFNS 3M Lag,Output and Income,6.7766945e-05
+CES0600000008 12M Lag,Labor Market,6.751152e-05
+DPCERA3M086SBEA 6M Lag,"Consumption, Orders and Inventories",6.589416e-05
+USTRADE 1M Lag,Labor Market,6.5211396e-05
+AAA 12M Lag,Interest and Exchange Rates,6.47223e-05
+UEMP5TO14 6M Lag,Labor Market,6.376427e-05
+CLF16OV 1M Lag,Labor Market,6.3670734e-05
+CLAIMSx 9M Lag,Labor Market,6.362173e-05
+IPMAT 9M Lag,Output and Income,6.300941e-05
+CES0600000007 1M Lag,Labor Market,6.2153624e-05
+DSERRG3M086SBEA 1M Lag,Prices,6.16785e-05
+TOTRESNS 6M Lag,Money and Credit,6.152953e-05
+FEDFUNDS 12M Lag,Interest and Exchange Rates,5.8218586e-05
+TB3MS 9M Lag,Interest and Exchange Rates,5.5978795e-05
+HWIURATIO 1M Lag,Labor Market,5.5402674e-05
+CMRMTSPLx 6M Lag,"Consumption, Orders and Inventories",5.4640685e-05
+GS1 9M Lag,Interest and Exchange Rates,5.4294625e-05
+IPFPNSS 6M Lag,Output and Income,5.3403095e-05
+CES0600000007 12M Lag,Labor Market,5.3126983e-05
+UEMP27OV 12M Lag,Labor Market,5.2026124e-05
+IPFINAL 12M Lag,Output and Income,5.1383042e-05
+BAAFFM 6M Lag,Interest and Exchange Rates,5.0354607e-05
+BOGMBASE 3M Lag,Money and Credit,5.0311104e-05
+WPSFD49502,Prices,4.948742e-05
+EXJPUSx 3M Lag,Interest and Exchange Rates,4.9424514e-05
+UEMPLT5 12M Lag,Labor Market,4.784375e-05
+DMANEMP 6M Lag,Labor Market,4.7181544e-05
+DSERRG3M086SBEA 6M Lag,Prices,4.7072164e-05
+T10YFFM 3M Lag,Interest and Exchange Rates,4.548064e-05
+BAA 6M Lag,Interest and Exchange Rates,4.53696e-05
+CES3000000008 3M Lag,Labor Market,4.5076526e-05
+WPSFD49502 6M Lag,Prices,4.476651e-05
+DNDGRG3M086SBEA 1M Lag,Prices,4.426985e-05
+NONBORRES 1M Lag,Money and Credit,4.3960707e-05
+GS10 3M Lag,Interest and Exchange Rates,4.3143787e-05
+IPNCONGD,Output and Income,4.287033e-05
+IPDCONGD 6M Lag,Output and Income,4.2508724e-05
+HWI 6M Lag,Labor Market,4.2316522e-05
+IPBUSEQ 1M Lag,Output and Income,4.2069347e-05
+IPFINAL 9M Lag,Output and Income,4.135772e-05
+UEMPLT5 1M Lag,Labor Market,4.0715175e-05
+CPITRNSL 12M Lag,Prices,3.9761453e-05
+DPCERA3M086SBEA 1M Lag,"Consumption, Orders and Inventories",3.9565635e-05
+CES2000000008 12M Lag,Labor Market,3.9137198e-05
+CPIMEDSL 12M Lag,Prices,3.8437698e-05
+IPFPNSS 12M Lag,Output and Income,3.7891128e-05
+DSERRG3M086SBEA 3M Lag,Prices,3.7416496e-05
+CE16OV 9M Lag,Labor Market,3.7271766e-05
+CUSR0000SA0L5 9M Lag,Prices,3.6936748e-05
+WPSFD49502 12M Lag,Prices,3.5961217e-05
+HOUSTNE 6M Lag,Housing,3.5463367e-05
+PCEPI 9M Lag,Prices,3.4977504e-05
+EXJPUSx,Interest and Exchange Rates,3.4188426e-05
+HWI 12M Lag,Labor Market,3.3198467e-05
+UEMPLT5 6M Lag,Labor Market,3.2238942e-05
+TB3MS 1M Lag,Interest and Exchange Rates,3.140236e-05
+RETAILx 3M Lag,"Consumption, Orders and Inventories",3.1157826e-05
+UEMP5TO14 9M Lag,Labor Market,3.0990734e-05
+WPSID62,Prices,3.0816263e-05
+AMDMNOx 6M Lag,"Consumption, Orders and Inventories",3.026949e-05
+TB6MS 1M Lag,Interest and Exchange Rates,3.0063326e-05
+RETAILx 12M Lag,"Consumption, Orders and Inventories",2.989487e-05
+IPDMAT 6M Lag,Output and Income,2.938024e-05
+USTPU,Labor Market,2.927708e-05
+CPIAPPSL,Prices,2.8526774e-05
+HWI 1M Lag,Labor Market,2.77331e-05
+WPSFD49207 1M Lag,Prices,2.7493672e-05
+IPNMAT 9M Lag,Output and Income,2.745262e-05
+AAA 9M Lag,Interest and Exchange Rates,2.619234e-05
+EXCAUSx 12M Lag,Interest and Exchange Rates,2.5945898e-05
+UEMP15T26 12M Lag,Labor Market,2.5747546e-05
+TB6MS 12M Lag,Interest and Exchange Rates,2.5285783e-05
+WPSID62 9M Lag,Prices,2.483183e-05
+HOUSTNE 3M Lag,Housing,2.3148514e-05
+EXUSUKx 3M Lag,Interest and Exchange Rates,2.312917e-05
+GS5 9M Lag,Interest and Exchange Rates,2.3025052e-05
+PPICMM 12M Lag,Prices,2.2454207e-05
+USTPU 1M Lag,Labor Market,2.2177948e-05
+AMDMNOx 1M Lag,"Consumption, Orders and Inventories",2.1561647e-05
+ISRATIOx 9M Lag,"Consumption, Orders and Inventories",2.1061545e-05
+AAA 6M Lag,Interest and Exchange Rates,2.0199737e-05
+IPCONGD 12M Lag,Output and Income,2.0068457e-05
+CUMFNS 9M Lag,Output and Income,1.9333911e-05
+IPMANSICS 9M Lag,Output and Income,1.9164325e-05
+IPMANSICS 1M Lag,Output and Income,1.871064e-05
+TOTRESNS 12M Lag,Money and Credit,1.8654926e-05
+IPMANSICS 12M Lag,Output and Income,1.8631505e-05
+HOUSTS 3M Lag,Housing,1.8502169e-05
+UEMP5TO14 1M Lag,Labor Market,1.7380828e-05
+IPFUELS 6M Lag,Output and Income,1.7377117e-05
+EXUSUKx 1M Lag,Interest and Exchange Rates,1.7266004e-05
+WPSFD49502 3M Lag,Prices,1.7066735e-05
+GS10 12M Lag,Interest and Exchange Rates,1.6677286e-05
+IPNCONGD 3M Lag,Output and Income,1.6268397e-05
+WPSID62 12M Lag,Prices,1.601462e-05
+GS5 6M Lag,Interest and Exchange Rates,1.5909738e-05
+AMDMNOx 3M Lag,"Consumption, Orders and Inventories",1.4942668e-05
+TB6MS 3M Lag,Interest and Exchange Rates,1.4407983e-05
+S&P div yield 6M Lag,Stock Market,1.2930502e-05
+PCEPI 12M Lag,Prices,1.2876024e-05
+IPCONGD 6M Lag,Output and Income,1.2790701e-05
+TB6MS 6M Lag,Interest and Exchange Rates,1.2713674e-05
+CPITRNSL 3M Lag,Prices,1.2304444e-05
+ISRATIOx 1M Lag,"Consumption, Orders and Inventories",1.2234427e-05
+UEMPLT5 9M Lag,Labor Market,1.2153651e-05
+AWOTMAN,Labor Market,8.758025e-06
+GS10 1M Lag,Interest and Exchange Rates,8.597362e-06
+S&P div yield 9M Lag,Stock Market,7.2194607e-06
+GS10 6M Lag,Interest and Exchange Rates,7.0420765e-06
+IPFINAL 6M Lag,Output and Income,7.0273472e-06
+EXJPUSx 1M Lag,Interest and Exchange Rates,5.8978053e-06
+TOTRESNS 3M Lag,Money and Credit,5.764359e-06
+UEMPMEAN 6M Lag,Labor Market,5.380908e-06
+NONBORRES 9M Lag,Money and Credit,5.371162e-06
+AWOTMAN 3M Lag,Labor Market,4.9320183e-06
+USTRADE 3M Lag,Labor Market,4.4063536e-06
+IPDMAT 1M Lag,Output and Income,4.3757364e-06
+UNRATE 6M Lag,Labor Market,4.190004e-06
+AMDMUOx 1M Lag,"Consumption, Orders and Inventories",3.1317306e-06
+NONBORRES 6M Lag,Money and Credit,2.7257447e-06
+CUMFNS 1M Lag,Output and Income,2.6760256e-06
+AAA 1M Lag,Interest and Exchange Rates,2.6239106e-06
+UEMPMEAN,Labor Market,2.5542388e-06
+NONBORRES 3M Lag,Money and Credit,2.5228007e-06
+UEMPMEAN 12M Lag,Labor Market,2.3947975e-06
+ISRATIOx 12M Lag,"Consumption, Orders and Inventories",2.1527637e-06
+S&P 500 12M Lag,Stock Market,1.2856427e-06
+UEMPMEAN 9M Lag,Labor Market,8.9371855e-07
+CUSR0000SA0L5 12M Lag,Prices,6.304634e-07
+UNRATE 12M Lag,Labor Market,5.9318154e-07
+AWOTMAN 1M Lag,Labor Market,0.0
+AWOTMAN 12M Lag,Labor Market,0.0
+UNRATE,Labor Market,0.0
+AWOTMAN 9M Lag,Labor Market,0.0
+AWOTMAN 6M Lag,Labor Market,0.0
+AAA 3M Lag,Interest and Exchange Rates,0.0
+ISRATIOx 3M Lag,"Consumption, Orders and Inventories",0.0
+W875RX1 6M Lag,Output and Income,0.0
+UNRATE 9M Lag,Labor Market,0.0
+CES0600000007,Labor Market,0.0
+CLF16OV 12M Lag,Labor Market,0.0
+UNRATE 3M Lag,Labor Market,0.0
+AMDMNOx 9M Lag,"Consumption, Orders and Inventories",0.0
+ISRATIOx 6M Lag,"Consumption, Orders and Inventories",0.0
+NONBORRES 12M Lag,Money and Credit,0.0
+UNRATE 1M Lag,Labor Market,0.0
+IPDCONGD 9M Lag,Output and Income,0.0
+UEMPMEAN 1M Lag,Labor Market,0.0

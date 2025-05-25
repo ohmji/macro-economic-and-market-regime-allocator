@@ -159,3 +159,20 @@ if __name__ == "__main__":
                                     class_names=['Normal', 'Recession'],
                                     title=f'{model} Confusion Matrix')
         fig.write_image(os.path.join(report_dir, f'{model}_confusion_matrix.png'))
+
+    feat_imp_df.to_csv(os.path.join(report_dir, f'{h}M_feature_importance_econ.csv'), index=False)
+
+    from src.model_evaluation import plot_feature_importance
+    avg_feat_impo = pd.DataFrame(feat_imp_df[feature_cols].mean()).reset_index()
+    avg_feat_impo.columns = ['Feature', 'Importance']
+    avg_feat_impo.sort_values('Importance', ascending=False, inplace=True)
+    avg_feat_impo['Group'] = 'Unknown'  # Optional: map to actual groups if available
+
+    fig_feat = plot_feature_importance(feat_impo_df=avg_feat_impo,
+                                       group_impo_df=avg_feat_impo.groupby('Group', as_index=False).sum(),
+                                       plot_title='Average Feature Importance (Economic)',
+                                       bar_plot_title='Top Features',
+                                       pie_plot_title='Importance by Group',
+                                       start_feat_idx=1,
+                                       max_feat_no=30)
+    fig_feat.write_image(os.path.join(report_dir, f'{h}M_feature_importance_econ.png'))
