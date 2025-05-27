@@ -1,6 +1,10 @@
 import numpy as np
 import pandas as pd
+import yfinance as yf
 import os
+
+# Import matplotlib.pyplot at the top for deduplication
+import matplotlib.pyplot as plt
 
 # PortfolioBacktester class for backtesting portfolio strategies
 class PortfolioBacktester:
@@ -47,6 +51,21 @@ class PortfolioBacktester:
 
         return summary_dict
 
+
+# Helper function to save plots (extracted for reuse)
+def save_plot(series, title, ylabel, filename, report_dir):
+    plt.figure(figsize=(10, 5))
+    plt.plot(series)
+    plt.title(title)
+    plt.xlabel("Date")
+    plt.ylabel(ylabel)
+    plt.grid(True)
+    plt.tight_layout()
+    path = os.path.join(report_dir, filename)
+    plt.savefig(path)
+    plt.close()
+    print(f"Saved {title.lower()} to: {path}")
+
 def run_backtest_and_save_summary(returns_df, weights_df, label, report_dir, version_suffix=""):
     """
     Run backtest and save summary, weights, and equity curve files with an optional version suffix.
@@ -66,20 +85,16 @@ def run_backtest_and_save_summary(returns_df, weights_df, label, report_dir, ver
     print(f"Saved summary to: {summary_path}")
     # Save equity curve PNG as well
     try:
-        import matplotlib.pyplot as plt
-        plt.figure(figsize=(10, 5))
-        plt.plot(result.equity_curve)
-        plt.title(f"{label}{suffix} Equity Curve")
-        plt.xlabel("Date")
-        plt.ylabel("Portfolio Value")
-        plt.grid(True)
-        plt.tight_layout()
-        equity_path = os.path.join(report_dir, f'{label.lower().replace(" ", "_")}_equity_curve{suffix}.png')
-        plt.savefig(equity_path)
-        plt.close()
-        print(f"Saved equity curve to: {equity_path}")
+        save_plot(result.equity_curve, f"{label}{suffix} Equity Curve", "Portfolio Value",
+                  f'{label.lower().replace(" ", "_")}_equity_curve{suffix}.png', report_dir)
     except Exception as e:
         print(f"Warning: Could not save equity curve plot for {label}{suffix}: {e}")
+    # Save drawdown curve PNG
+    try:
+        save_plot(result.drawdown, f"{label}{suffix} Drawdown Curve", "Drawdown",
+                  f'{label.lower().replace(" ", "_")}_drawdown_curve{suffix}.png', report_dir)
+    except Exception as e:
+        print(f"Warning: Could not save drawdown curve plot for {label}{suffix}: {e}")
     return result
 
 def run_regime_backtest_from_file(regime_filename, returns_df, report_dir, label_prefix):
@@ -123,8 +138,6 @@ def run_regime_backtest_from_file(regime_filename, returns_df, report_dir, label
     return result, version_suffix
 
 if __name__ == "__main__":
-    import yfinance as yf
-    import matplotlib.pyplot as plt
 
     # Load SPY monthly returns
     spy = yf.download('SPY', start='2000-01-01', interval='1mo')['Close']
@@ -180,4 +193,48 @@ if __name__ == "__main__":
     comparison_df.to_csv(os.path.join(
         report_dir,
         f'equity_curve_comparison_{version_suffix_econ[1:]}_{version_suffix_mkt[1:]}.csv'
+    ))
+
+    # -------------------------------
+    # Rolling Sharpe Ratio Comparison
+    # -------------------------------
+    window = 12  # 12-month rolling window
+    rolling_sharpe = pd.DataFrame()
+    rolling_sharpe['Buy-and-Hold SPY'] = result.daily_returns.rolling(window).mean() / result.daily_returns.rolling(window).std() * np.sqrt(12)
+    rolling_sharpe[f'Regime-Based Allocation{version_suffix_econ}'] = model_result_econ.daily_returns.rolling(window).mean() / model_result_econ.daily_returns.rolling(window).std() * np.sqrt(12)
+    rolling_sharpe[f'Regime-Based Allocation{version_suffix_mkt}'] = model_result_mkt.daily_returns.rolling(window).mean() / model_result_mkt.daily_returns.rolling(window).std() * np.sqrt(12)
+    plt.figure(figsize=(12, 6))
+    for col in rolling_sharpe.columns:
+        plt.plot(rolling_sharpe.index, rolling_sharpe[col], label=col)
+    plt.title("Rolling Sharpe Ratio (12-Month Window)")
+    plt.xlabel("Date")
+    plt.ylabel("Sharpe Ratio")
+    plt.legend()
+    plt.grid(True)
+    plt.savefig(os.path.join(report_dir, f'rolling_sharpe_comparison_{version_suffix_econ[1:]}_{version_suffix_mkt[1:]}.png'))
+    rolling_sharpe.to_csv(os.path.join(report_dir, f'rolling_sharpe_comparison_{version_suffix_econ[1:]}_{version_suffix_mkt[1:]}.csv'))
+
+    # -------------------------------
+    # Compare Drawdown Curves
+    # -------------------------------
+    plt.figure(figsize=(12, 6))
+    plt.plot(result.drawdown, label='Buy-and-Hold SPY')
+    plt.plot(model_result_econ.drawdown, label=f'Regime-Based Allocation{version_suffix_econ}')
+    plt.plot(model_result_mkt.drawdown, label=f'Regime-Based Allocation{version_suffix_mkt}')
+    plt.title("Drawdown Curve Comparison")
+    plt.xlabel("Date")
+    plt.ylabel("Drawdown")
+    plt.legend()
+    plt.grid(True)
+    plt.savefig(os.path.join(report_dir, f'drawdown_curve_comparison_{version_suffix_econ[1:]}_{version_suffix_mkt[1:]}.png'))
+
+    # Save drawdown curves as CSV
+    drawdown_df = pd.DataFrame({
+        'Buy-and-Hold SPY': result.drawdown,
+        f'Regime-Based Allocation{version_suffix_econ}': model_result_econ.drawdown,
+        f'Regime-Based Allocation{version_suffix_mkt}': model_result_mkt.drawdown,
+    })
+    drawdown_df.to_csv(os.path.join(
+        report_dir,
+        f'drawdown_curve_comparison_{version_suffix_econ[1:]}_{version_suffix_mkt[1:]}.csv'
     ))

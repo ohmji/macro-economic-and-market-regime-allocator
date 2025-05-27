@@ -31,6 +31,20 @@ The framework includes two main models:
 
 ---
 
+### 📈 Equity Curve Comparison  
+![Equity Curve](images/equity_curve_comparison_econ_market.png)
+
+### 📉 Drawdown Curve Comparison  
+![Drawdown Curve](images/drawdown_curve_comparison_econ_market.png)
+
+### 🔍 Feature Importance - Economic Regime  
+![Feature Importance (Econ)](images/1M_feature_importance_econ.png)
+
+### 🔍 Feature Importance - Market Regime  
+![Feature Importance (Market)](images/1M_feature_importance_market.png)
+
+---
+
 ## ⚙️ Pipeline Structure
 
 ```bash
